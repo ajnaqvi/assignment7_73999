@@ -3,4 +3,11 @@
 [[package]]
 name = "assignment7_73999"
 version = "0.1.0"
+dependencies = [
+ "mycalculator 0.1.0",
+]
+
+[[package]]
+name = "mycalculator"
+version = "0.1.0"
 

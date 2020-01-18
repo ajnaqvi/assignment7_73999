@@ -1,5 +1,5 @@
-mod lib;
+extern crate mycalculator;
 fn main() {
-    let sum:i32= lib::calculator::simple::add(18,32);
-    println!("Sum of 18 and 32 is {}",sum);
+    let sum:i32= mycalculator::calculator::simple::add(30,40);
+    println!("Sum of 30 and 40 is {}",sum);
 }
